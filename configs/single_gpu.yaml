@@ -1,0 +1,25 @@
+ngf: 128
+
+vgg_check_point: 'model_zoo/Vgg16.params'
+
+total_epoch: 13
+base_lr: 0.001
+batch_size: 8
+content_dataset: 'your content images path'
+style_dataset: 'your style images path'
+save_model_dir: 'the path to save models'
+resume: null
+img_size: 256
+style_size: 512
+seed: 42
+log_interval: 100
+content_weight: 1.0
+style_weight: 5.0
+
+
+content_image: 'your content image path'
+style_image: 'your style image path'
+val_img_size: 1024
+val_style_size: 512
+output_img: 'the path to save styled image'
+val_model: 'the path of your params'
