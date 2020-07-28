@@ -16,6 +16,11 @@ Network
 
 The network architecture is shown, which is proposed in [Real-time Style Transfer](https://arxiv.org/pdf/1703.06953.pdf).
 
+Requirement
+---
+* Hardware: tested with RTX 2080Ti (11G) $\times 1$
+* Software: tested with Python 3.6, MXNet 1.6, CUDA 10.2
+
 Train
 ---
 We train our model on COCO dataset with batch size of 8, and the style dataset is WikiArt. The model is trained for total 13 epochs with learning rate 0.001 at the first 12 epoch and 0.0001 at the last epoch. \
