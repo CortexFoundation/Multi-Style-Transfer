@@ -18,7 +18,7 @@ The network architecture is shown, which is proposed in [Real-time Style Transfe
 
 Requirement
 ---
-* Hardware: tested with RTX 2080Ti (11G) $\times$ 1
+* Hardware: tested with RTX 2080Ti (11G) x 1
 * Software: tested with Python 3.6, MXNet 1.6, CUDA 10.2
 
 Train
